@@ -35,6 +35,8 @@ return {
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
+        python_host_prog = "/Users/itohleo/venvs/.nvim-venv/bin/python", -- set python host program
+        python3_host_prog = "/Users/itohleo/venvs/.nvim-venv/bin/python3", -- set python3 host program
       },
     },
     -- Mappings can be configured through AstroCore as well.
