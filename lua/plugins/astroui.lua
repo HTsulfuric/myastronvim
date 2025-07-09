@@ -9,7 +9,8 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "astrodark",
+    -- colorscheme = "astrodark", -- this is the default colorscheme, you can change it to any colorscheme you have installed
+    colorscheme = "nord",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
