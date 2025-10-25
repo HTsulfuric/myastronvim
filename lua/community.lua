@@ -5,8 +5,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.pack.lua" },
+  -- { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.pack.cpp" },

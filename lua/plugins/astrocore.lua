@@ -68,12 +68,15 @@ return {
         -- ["<Leader>b"] = { desc = "Buffers" },
 
         -- setting a mapping to false will disable it
-        -- ["<C-S>"] = false,
+        ["<C-j>"] = false,
         --
         ["<Up>"] = "<Nop>", -- disable the up arrow key
         ["<Down>"] = "<Nop>", -- disable the down arrow key
         ["<Left>"] = "<Nop>", -- disable the left arrow key
         ["<Right>"] = "<Nop>", -- disable the right arrow key
+      },
+      i = {
+        ["<C-j>"] = false, -- disable the C-j mapping in insert mode
       },
     },
   },
