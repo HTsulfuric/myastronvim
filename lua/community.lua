@@ -16,7 +16,6 @@ return {
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.debugging.nvim-dap-repl-highlights" },
-  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
   -- import/override with your plugins folder
 }
